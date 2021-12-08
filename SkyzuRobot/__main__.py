@@ -109,7 +109,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="➗ ᴀᴅᴅ ᴋɪᴛᴀʀᴏ ʀᴏʙᴏᴛ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➗", url="t.me/Kitarorobotbot?startgroup=new"),
+            text="➗ ᴀᴅᴅ ᴋɪᴛᴀʀᴏ ʀᴏʙᴏᴛ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➗", url="t.me/Kitaromusic_bot?startgroup=new"),
     ],
 ]
 
