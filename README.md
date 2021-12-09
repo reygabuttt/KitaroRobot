@@ -2,7 +2,7 @@
   <img src="https://telegra.ph/file/d53c76029ab708bdfc7f6.jpg">
 </p>
 
-<h4><p align="center"> KITARI ROBOT </p></h4>
+<h4><p align="center"> KITARO ROBOT </p></h4>
 
 <p align="center">Kitaro Robot is a modular bot running on python3 with anime theme and have a lot features.</p>
 
