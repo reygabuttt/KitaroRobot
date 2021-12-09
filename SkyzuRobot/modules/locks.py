@@ -9,20 +9,20 @@ from telegram.utils.helpers import mention_html
 
 from alphabet_detector import AlphabetDetector
 
-import PrimeMega.modules.sql.locks_sql as sql
-from PrimeMega import dispatcher, DRAGONS, LOGGER
-from PrimeMega.modules.disable import DisableAbleCommandHandler
-from PrimeMega.modules.helper_funcs.chat_status import (
+import SkyzuRobot.modules.sql.locks_sql as sql
+from SkyzuRobot import dispatcher, DRAGONS, LOGGER
+from SkyzuRobot.modules.disable import DisableAbleCommandHandler
+from SkyzuRobot.modules.helper_funcs.chat_status import (
     can_delete,
     is_user_admin,
     user_not_admin,
     is_bot_admin,
     user_admin,
 )
-from PrimeMega.modules.log_channel import loggable
-from PrimeMega.modules.connection import connected
-from PrimeMega.modules.sql.approve_sql import is_approved
-from PrimeMega.modules.helper_funcs.alternate import send_message, typing_action
+from SkyzuRobot.modules.log_channel import loggable
+from SkyzuRobot.modules.connection import connected
+from SkyzuRobot.modules.sql.approve_sql import is_approved
+from SkyzuRobot.modules.helper_funcs.alternate import send_message, typing_action
 
 ad = AlphabetDetector()
 
