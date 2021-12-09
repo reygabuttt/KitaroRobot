@@ -9,16 +9,16 @@ from SkyzuRobot.events import register
 from SkyzuRobot import telethn as tbot
 
 
-PHOTO = "https://telegra.ph/file/56811b69cbcece20bbebf.jpg"
+PHOTO = "https://telegra.ph/file/68592ad5407730bd6d610.jpg"
 
 @register(pattern=("/alive"))
 async def awake(event):
-  TEXT = f"**Hi [{event.sender.first_name}](tg://user?id={event.sender.id}), I'm Skyzu Robot.** \n\n"
-  TEXT += "⚪ **I'm Working Properly** \n\n"
-  TEXT += f"⚪ **My Master : [Skyzu](https://t.me/skyzu)** \n\n"
-  TEXT += f"⚪ **Library Version :** `{telever}` \n\n"
-  TEXT += f"⚪ **Telethon Version :** `{tlhver}` \n\n"
-  TEXT += f"⚪ **Pyrogram Version :** `{pyrover}` \n\n"
-  TEXT += "**Thanks For Adding Me Here ❤️**"
-  BUTTON = [[Button.url("ʜᴇʟᴘ​", "https://t.me/SkyzuRobot?start=help"), Button.url("sᴜᴘᴘᴏʀᴛ​", "https://t.me/skyzusupport")]]
+  TEXT = f"**Hey [{event.sender.first_name}](tg://user?id={event.sender.id}), I'm Kitaro Robot.** \n\n"
+  TEXT += "🔰 **I'm Working Now** \n\n"
+  TEXT += f"🔰 **My Master : [Kitaro](https://t.me/Kitarohey)** \n\n"
+  TEXT += f"🔰 **Library Version :** `{telever}` \n\n"
+  TEXT += f"🔰 **Telethon Version :** `{tlhver}` \n\n"
+  TEXT += f"🔰 **Pyrogram Version :** `{pyrover}` \n\n"
+  TEXT += "**Thanks For Adding Me Here 🙏**"
+  BUTTON = [[Button.url("SUPPORT GROUP", "https://t.me/rumahkitaro"), Button.url("CHANNEL​", "https://t.me/hariannsayaa")]]
   await tbot.send_file(event.chat_id, PHOTO, caption=TEXT,  buttons=BUTTON)
