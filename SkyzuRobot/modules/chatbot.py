@@ -57,17 +57,17 @@ async def hmm(_, message):
         lel = await edit_or_reply(message, "`Processing...`")
         lol = add_chat(int(message.chat.id))
         if not lol:
-            await lel.edit("Skyzu AI Already Activated In This Chat")
+            await lel.edit("Kitaro Robot Already Activated In This Chat")
             return
-        await lel.edit(f"Skyzu AI Actived by {message.from_user.mention()} for users in {message.chat.title}")
+        await lel.edit(f"Kitaro Robot Actived by {message.from_user.mention()} for users in {message.chat.title}")
 
     elif status == "OFF" or status == "off" or status == "Off":
         lel = await edit_or_reply(message, "`Processing...`")
         Escobar = remove_chat(int(message.chat.id))
         if not Escobar:
-            await lel.edit("Skyzu AI Was Not Activated In This Chat")
+            await lel.edit("Kitaro Robot Was Not Activated In This Chat")
             return
-        await lel.edit(f"Skyzu AI Deactivated by {message.from_user.mention()} for users in {message.chat.title}")
+        await lel.edit(f"Kitaro Robot Deactivated by {message.from_user.mention()} for users in {message.chat.title}")
 
     elif status == "EN" or status == "en" or status == "english":
         if not chat_id in en_chats:
@@ -106,15 +106,15 @@ async def hmm(client, message):
         message.continue_propagation()
     if chat_id in en_chats:
         test = msg
-        test = test.replace("Skyzu", "Aco")
-        test = test.replace("Skyzu", "Aco")
-        test = test.replace("My god is @skyzu", "I'm a Christian")
+        test = test.replace("Kitaro", "Aco")
+        test = test.replace("Kitaro", "Aco")
+        test = test.replace("My god is @Kitarohey", "I'm a Christian")
         test = test.replace("16", "9")
-        test = test.replace("@skyzu is my husband.", "I'm single.")
-        test = test.replace("My husband is @skyzu", "I'm single.")
-        test = test.replace("@skyzusupport", "Skyzubot.ai")
-        test = test.replace("I live in @skyzusupport.", "I live in San Francisco, California.")
-        test = test.replace("I was created by @skyzu", "I made myself")
+        test = test.replace("@Kitarohey is my husband.", "I'm single.")
+        test = test.replace("My husband is @Kitarohey", "I'm single.")
+        test = test.replace("@rumahkitaro", "Kitarobot.ai")
+        test = test.replace("I live in @rumahkitaro.", "I live in San Francisco, California.")
+        test = test.replace("I was created by @kitarohey", "I made myself")
         test = test.replace(
             "Hello there I am Skyzu...nice to meet u",
             "Hi, my friend! Do you want me to tell you a joke?")
